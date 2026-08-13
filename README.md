@@ -1,3 +1,29 @@
+# Clause Weighting and Restarts in Local Search for SAT
+
+https://github.com/GitHubUserA0/stage_sat_m2/
+
+The code is divided into five branches, one branch per contribution and one branch that merges them all:
+
+* main branch: Refactored version of CCAnr
+
+* MABs branch: Multi-Armed-Bandit version of CCAnr
+
+* choose_cc_clauses_only branch: CCAnr CC_CLAUSES version
+
+* Restart_keep_data branch: CCAnr weight_conservation version
+
+* general_versions branch: CCAnr merge of all contributions
+
+For each branch, simply download the repository. Compilation is performed using the “make” command via a makefile specific to each version (each branch contains only the appropriate makefile).
+
+For each version, execution with default parameters is performed as follows:
+
+{path to the executable} -inst {path to the instance}.
+
+For more details regarding execution parameters, comprehensive and detailed documentation is available in the document located in this same repository under the name {Documentation_exhaustive.pdf}; please refer to it for further information on the execution parameters for each version of CCAnr.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Pondération de clauses et redémarrages dans la recherche locale pour SAT
 
 https://github.com/GitHubUserA0/stage_sat_m2/
